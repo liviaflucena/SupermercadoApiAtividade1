@@ -1,19 +1,19 @@
-CREATE TABLE produtos(
+create table produtos(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL
 );
 
-CREATE TABLE usuarios(
+create table usuarios(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL
 );
 
-CREATE TABLE setores(
+create table setores(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL
 );
 
-CREATE TABLE categorias(
+create table categorias(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL
 )
